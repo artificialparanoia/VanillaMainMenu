@@ -1,28 +1,25 @@
 ﻿using OWML.ModHelper;
 using OWML.Common;
+using UnityEngine;
 
-namespace ModTemplate
+namespace RemoveDLCSubtitle
 {
-    public class ModTemplate : ModBehaviour
+    public class RemoveDLCSubtitle : ModBehaviour
     {
         private void Awake()
         {
-            // You won't be able to access OWML's mod helper in Awake.
-            // So you probably don't want to do anything here.
-            // Use Start() instead.
+            
         }
 
         private void Start()
         {
-            // Starting here, you'll have access to OWML's mod helper.
-            ModHelper.Console.WriteLine($"My mod {nameof(ModTemplate)} is loaded!", MessageType.Success);
+            ModHelper.Console.WriteLine($"My mod {nameof(RemoveDLCSubtitle)} is loaded!", MessageType.Success);
             
-            // Example of accessing game code.
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
             {
-                if (loadScene != OWScene.SolarSystem) return;
-                var playerBody = FindObjectOfType<PlayerBody>();
-                ModHelper.Console.WriteLine($"Found player body, and it's called {playerBody.name}!", MessageType.Success);
+                //I will be amazed if this just works
+                if (loadScene != OWScene.TitleScreen) return;
+                GameObject.Find("TitleMenu/TitleCanvas/TitleLayoutGroup/Logo_EchoesOfTheEye").SetActive(false);
             };
         }
     }
