@@ -6,21 +6,22 @@ namespace RemoveDLCSubtitle
 {
     public class RemoveDLCSubtitle : ModBehaviour
     {
-        private void Awake()
+        private void Update()
         {
+            if (LoadManager.GetCurrentScene() != OWScene.TitleScreen) return;
             
+            if (_EOTELogoSubtitle == null)
+            {
+               _EOTELogoSubtitle = GameObject.Find("TitleMenu/TitleCanvas/TitleLayoutGroup/Logo_EchoesOfTheEye");
+                //ModHelper.Console.WriteLine($"Checking for logo...", MessageType.Info);
+            }
+            else if(_EOTELogoSubtitle.activeInHierarchy)
+            {
+                _EOTELogoSubtitle.SetActive(false);
+                //ModHelper.Console.WriteLine($"Logo disabled!", MessageType.Success);
+            }
         }
 
-        private void Start()
-        {
-            ModHelper.Console.WriteLine($"My mod {nameof(RemoveDLCSubtitle)} is loaded!", MessageType.Success);
-            
-            LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
-            {
-                //I will be amazed if this just works
-                if (loadScene != OWScene.TitleScreen) return;
-                GameObject.Find("TitleMenu/TitleCanvas/TitleLayoutGroup/Logo_EchoesOfTheEye").SetActive(false);
-            };
-        }
+        private static GameObject _EOTELogoSubtitle;
     }
 }
