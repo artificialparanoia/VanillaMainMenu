@@ -1,0 +1,8 @@
+{
+  "filename": "RemoveDLCSubtitle.dll",
+  "author": "artificialparanoia",
+  "name": "Remove EOTE Subtitle",
+  "uniqueName": "artificial.RemoveDLCSubtitle",
+  "version": "0.1.0",
+  "owmlVersion": "2.0.0"
+}

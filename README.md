@@ -1,1 +1,1 @@
-SubtitleTweakMod
+This is a mod
