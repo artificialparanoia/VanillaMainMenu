@@ -2,6 +2,6 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectView>ProjectFiles</ProjectView>
-    <OutputPath>C:\Users\Blair\AppData\Roaming\OuterWildsModManager\OWML\Mods\artificial.RemoveDLCSubtitle</OutputPath>
+    <OutputPath>C:\Users\Blair\AppData\Roaming\OuterWildsModManager\OWML\Mods\artificial.VanillaMainMenu</OutputPath>
   </PropertyGroup>
 </Project>

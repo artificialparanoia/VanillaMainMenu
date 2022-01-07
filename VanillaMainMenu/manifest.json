@@ -1,8 +1,8 @@
 {
-  "filename": "RemoveDLCSubtitle.dll",
+  "filename": "VanillaMainMenu.dll",
   "author": "artificialparanoia",
   "name": "Vanilla Main Menu",
-  "uniqueName": "artificial.RemoveDLCSubtitle",
+  "uniqueName": "artificial.VanillaMainMenu",
   "version": "0.1.0",
   "owmlVersion": "2.3.0"
 }

@@ -2,9 +2,9 @@
 using OWML.Common;
 using UnityEngine;
 
-namespace RemoveDLCSubtitle
+namespace VanillaMainMenu
 {
-    public class RemoveDLCSubtitle : ModBehaviour
+    public class VanillaMainMenu : ModBehaviour
     {
         private void Update()
         {
