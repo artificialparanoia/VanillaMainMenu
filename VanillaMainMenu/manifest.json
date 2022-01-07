@@ -3,6 +3,7 @@
   "author": "artificialparanoia",
   "name": "Vanilla Main Menu",
   "uniqueName": "artificial.VanillaMainMenu",
+  "description": "Removes the Echoes of the Eye subtitle and restores the main menu to its pre-1.0.8 glory."
   "version": "0.1.0",
   "owmlVersion": "2.3.0"
 }
