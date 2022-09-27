@@ -4,7 +4,7 @@ Have you ever opened up Outer Wilds after the release of Echoes of the Eye and t
 
 ## Features:
 
-- Removes the Echoes of the Eye logo from the main title screen for both DLC and non-DLC owners.
+- Removes the Echoes of the Eye logo from the main title screen for those who own EotE (already removed by default for non-DLC owners).
 
 - Is the smallest and most lightweight mod in the entire Outer Wilds mod library.
 
