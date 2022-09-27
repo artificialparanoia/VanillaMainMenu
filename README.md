@@ -6,6 +6,6 @@ Have you ever opened up Outer Wilds after the release of Echoes of the Eye and t
 
 - Removes the Echoes of the Eye logo from the main title screen for those who own EotE (already removed by default for non-DLC owners).
 
-- Is the smallest and most lightweight mod in the entire Outer Wilds mod library.
+- Is the smallest and most lightweight mod in the entire Outer Wilds mod library (probably).
 
 - Is compatible with every other mod.
